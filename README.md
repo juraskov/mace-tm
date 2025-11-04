@@ -6,6 +6,6 @@ Fine-tuning and benchmarking MACE on organometallics.
 - Install [`uv`](https://docs.astral.sh/uv/getting-started/installation/)
 - Create the virtual env `uv sync`
 - Activate the virtual env `source .venv/bin/activate`
-### Adding Jupyter Kenrel
+### Adding Jupyter Kernel
 - `uv add --dev ipykernel`
 - `uv run ipython kernel install --user --env VIRTUAL_ENV $(pwd)/.venv --name=mace-tm`
